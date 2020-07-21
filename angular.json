@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sophia"
+    }
+  },
+  "defaultProject": "sophia",
+  "cli": {
+    "analytics": "5d603361-bc7f-4cd1-98bb-1665d34cefca"
+  }
 }
