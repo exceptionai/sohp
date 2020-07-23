@@ -1,0 +1,30 @@
+.sidebar-content{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 5.5rem;
+    height: 100%;
+    background-color: #fff;
+}
+
+.nav-links{
+    font-size: 2rem;
+    display: flex;
+    color: #C2B5B8;
+    flex-direction: column;
+    .nav-active{
+        color: #C30505;
+    }
+}
+
+
+#dark-mode{
+    min-width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid #666;
+    margin-bottom: 4rem;
+}

@@ -1,1 +1,12 @@
-<p>header works!</p>
+<div class="header-container">
+    <h2>SophIA</h2>
+    <input type="text">
+    <div class="user">
+        <i class="fa fa-bell" aria-hidden="true"></i>
+        <span class="text-name">{{user?.name}}</span>
+        <div class="avatar-user" [ngStyle]="{'background-image': getAvatarUrl()}"></div>
+        <i class="fa fa-arrow-down" aria-hidden="true"></i>
+
+    </div>
+
+</div>
